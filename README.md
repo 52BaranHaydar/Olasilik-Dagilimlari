@@ -13,7 +13,8 @@ Her dağılım için:
 - 📐 **Matematiksel formüller (PMF / PDF, CDF, Momentler)**,
 - 🧪 **NumPy ve SciPy ile simülasyonlar**,
 - 📊 **Matplotlib ve Seaborn ile zengin görselleştirmeler**,
-- 💼 **Gerçek hayat senaryoları ve vaka analizleri** yer almaktadır.
+- 💼 **Gerçek hayat senaryoları ve vaka analizleri**,
+- 📑 **Ders notları ve PDF slaytları** yer almaktadır.
 
 ---
 
@@ -22,8 +23,10 @@ Her dağılım için:
 ### 🎲 1. Ayrık (Discrete) Olasılık Dağılımları
 - [x] **[Bernoulli Dağılımı (Bernoulli Distribution)](bernoulli_distribution.ipynb)**
   - Tek denemeli iki sonuçlu olaylar, PMF/CDF, Varyans analizi, Büyük Sayılar Yasası (LLN) simülasyonu, CTR ve Kalite Kontrol örnekleri.
-- [ ] **Binom Dağılımı (Binomial Distribution)**
-- [ ] **Poisson Dağılımı (Poisson Distribution)**
+- [x] **[Binom Dağılımı (Binomial Distribution)](binom_distribution.ipynb)**
+  - $n$ bağımsız Bernoulli denemesi, kombinasyon formülleri, PMF/CDF basamak eğrileri, Merkezi Limit Teoremi (Normal dağılıma yakınsama), A/B testi ve hata analizleri.
+- [x] **[Poisson Dağılımı (Poisson Distribution)](poission_distribution.ipynb)**
+  - Sabit zaman/alan aralıklarındaki nadir olaylar, $\lambda$ parametresi, Eşitlik İlkesi ($E[X]=\text{Var}(X)=\lambda$), Çağrı Merkezi ve Otopark modelleri, Binom'dan Poisson'a yakınsama.
 - [ ] **Geometrik Dağılım (Geometric Distribution)**
 - [ ] **Hipergeometrik Dağılım (Hypergeometric Distribution)**
 - [ ] **Negatif Binom Dağılımı (Negative Binomial Distribution)**
@@ -39,6 +42,20 @@ Her dağılım için:
 - [ ] **Ki-Kare Dağılımı (Chi-Square Distribution)**
 - [ ] **Student-t Dağılımı (Student's t-Distribution)**
 - [ ] **F Dağılımı (F-Distribution)**
+
+---
+
+## 📁 PDF Ders Notları ve Dokümanlar ([PDF/](PDF/))
+
+Depoda yer alan teorik ders notları ve görsel konu özetleri:
+
+1. 📄 **[1 - Probability.pdf](PDF/1+-+Probability.pdf):** Temel olasılık kavramları, örnek uzay, olaylar ve olasılık aksiyomları.
+2. 📄 **[2 - Probability Distribution Functions.pdf](PDF/2+-+Probability_Distribution_Functions.pdf):** Olasılık fonksiyonları, PMF, PDF, CDF ve moment hesaplama temelleri.
+3. 📄 **[3 - Bernouilli and Binom.pdf](PDF/3+-+Bernouilli_and_Binom.pdf):** Bernoulli denemeleri ve Binom dağılımı teorik anlatımı.
+4. 📄 **[4 - Poisson.pdf](PDF/4+-+Poisson.pdf):** Poisson süreci, oran parametresi ($\lambda$) ve uygulama alanları.
+5. 📄 **[5 - Normal Dağılım.pdf](PDF/5+-+Normal_Dağılım.pdf):** Gauss / Normal dağılım, çan eğrisi özellikleri ve standartlaştırma.
+6. 📄 **[6 - Uniform Distribution.pdf](PDF/6+-+Uniform_Distribution.pdf):** Düzgün (Uniform) dağılım özellikleri.
+7. 📄 **[7 - Log Normal Distribution.pdf](PDF/7+-+Log_Normal_Distribution.pdf):** Log-Normal dağılım ve pozitif çarpık veri modelleme.
 
 ---
 
