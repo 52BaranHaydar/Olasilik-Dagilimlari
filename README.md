@@ -1,24 +1,34 @@
-# 📊 Olasılık Dağılımları (Probability Distributions)
+# 📊 İstatistik ve Olasılık Dağılımları (Statistics & Probability Distributions)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)](https://scipy.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Veri bilimi, makine öğrenmesi, istatistik ve yapay zeka alanlarında temel teşkil eden **Olasılık Dağılımları** için kapsamlı, teorik ve uygulamalı Türkçe eğitim ve uygulama deposu.
+Veri bilimi, makine öğrenmesi, istatistik ve yapay zeka alanlarında temel teşkil eden **İstatistik ve Olasılık Dağılımları** için kapsamlı, teorik ve uygulamalı Türkçe eğitim ve uygulama deposu.
 
-Her dağılım için:
+Her konu ve dağılım için:
 - 📖 **Sezgisel ve teorik açıklamalar**,
-- 📐 **Matematiksel formüller (PMF / PDF, CDF, Momentler)**,
-- 🧪 **NumPy ve SciPy ile simülasyonlar**,
+- 📐 **Matematiksel formüller (LaTeX formülleri, PMF / PDF, CDF, Momentler)**,
+- 🧪 **NumPy, Pandas ve SciPy ile simülasyonlar & hesaplamalar**,
 - 📊 **Matplotlib ve Seaborn ile zengin görselleştirmeler**,
-- 💼 **Gerçek hayat senaryoları ve vaka analizleri**,
+- 💼 **Gerçek hayat senaryoları ve vaka analizleri (Ev fiyat tahmini, A/B testi, çağrı merkezi vb.)**,
 - 📑 **Ders notları ve PDF slaytları** yer almaktadır.
 
 ---
 
-## 🗺️ Dağılımlar Yol Haritası (Roadmap)
+## 📚 Notebook Serisi ve Yol Haritası (Roadmap)
+
+### 📘 0. Temel İstatistik ve Veri Bilimi
+- [x] **[İstatistik ve Veri Bilimi Temelleri](istatistik_ve_veri_bilimi_temelleri.ipynb)**
+  - **Örnekleme (Sampling) Teknikleri:** Olasılıklı (Basit Rastgele, Sistematik, Tabakalı, Küme) ve Olasılıksız (Kolayda, Yargısal, Kartopu, Kota) yöntemler.
+  - **Veri Tipleri Şeması:** Nicel (Kesikli / Sürekli) ve Nitel (Nominal / Ordinal) değişkenler.
+  - **Dağılım Ölçüleri & 5 Sayı Özeti:** Mean, Median, Mode, Varyans, Standart Sapma, $Q_1, Q_3$, $\text{IQR} = Q_3 - Q_1$, Alt/Üst Çit ve Aykırı Değer (Outlier) filtreleme + Boxplot.
+  - **Çarpıklık (Skewness):** Sağa Çarpık ($\text{Mod} < \text{Medyan} < \text{Ortalama}$), Simetrik ve Sola Çarpık ($\text{Ortalama} \le \text{Medyan} \le \text{Mod}$) kuralları ve KDE grafikleri.
+  - **İlişki Ölçütleri:** `pd.concat`, Kovaryans (`.cov()`), Pearson Korelasyonu (`.corr()`) ve Isı Haritası (`sns.heatmap`).
+  - **Olasılık Fonksiyonları:** Kesikli için PMF, Sürekli için PDF ve Birikimli CDF. Ev Fiyat Tahmini değişken sınıflandırması.
 
 ### 🎲 1. Ayrık (Discrete) Olasılık Dağılımları
 - [x] **[Bernoulli Dağılımı (Bernoulli Distribution)](bernoulli_distribution.ipynb)**
