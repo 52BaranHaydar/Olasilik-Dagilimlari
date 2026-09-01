@@ -43,10 +43,13 @@ Her konu ve dağılım için:
 - [ ] **Ayrık Düzgün Dağılım (Discrete Uniform Distribution)**
 
 ### 📈 2. Sürekli (Continuous) Olasılık Dağılımları
-- [ ] **Normal (Gauss) Dağılımı (Normal Distribution)**
-- [ ] **Standart Normal Dağılım & Z-Skoru**
+- [x] **[Normal (Gauss) Dağılımı (Normal Distribution)](normal_distribution.ipynb)**
+  - Çan eğrisi simetrisi, $\mu$ ve $\sigma$ parametreleri, PDF/CDF formülleri, 68-95-99.7 Ampirik Kuralı (3-Sigma), Q-Q Plot ve Normallik Testleri (Shapiro-Wilk), Fabrika Tolerans Analizi, Finansal Risk (VaR %95) ve Merkezi Limit Teoremi (CLT) simülasyonu.
+- [x] **[Standart Normal Dağılım & Z-Skoru (Standard Normal & Z-Score)](standard_normal_distribution.ipynb)**
+  - Z-dönüşümü ($Z = \frac{X-\mu}{\sigma}$), Klasik Z-Tablosu oluşturma ve arama fonksiyonu, $|Z| > 3$ ve Dayanıklı (Robust / MAD) Aykırı Değer Tespiti, Kritik Değerler ($\alpha=0.05 \implies Z=\pm 1.96$), Üniversite Çan Eğrisi Sınav Notlandırması ve Siber Güvenlik (DDoS Trafiği Anomali Alarmı).
+- [x] **[Düzgün / Uniform Dağılım (Continuous & Discrete Uniform)](uniform_distribution.ipynb)**
+  - Eşit olasılık ilkesi, Sürekli $U(a, b)$ ve Ayrık Zar PMF modelleri, Bakkal şeker satışı ($[50, 55]$ aralığı) tam çözümü, Monte Carlo Yöntemi ile $\pi$ Sayısı Tahmini, Ters Dönüşüm Yöntemi (Inverse Transform Sampling) ile rastgele sayı üretimi, Otobüs Bekleme Süresi ve Makine Öğrenmesinde Hiperparametre Arama.
 - [ ] **Üstel Dağılım (Exponential Distribution)**
-- [ ] **Sürekli Düzgün Dağılım (Uniform Distribution)**
 - [ ] **Gamma Dağılımı (Gamma Distribution)**
 - [ ] **Beta Dağılımı (Beta Distribution)**
 - [ ] **Ki-Kare Dağılımı (Chi-Square Distribution)**
